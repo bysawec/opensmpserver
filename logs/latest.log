@@ -1,0 +1,714 @@
+[10:52:20] [main/INFO]: Loading Minecraft 1.19.3 with Fabric Loader 0.14.13
+[10:52:21] [main/INFO]: Loading 153 mods:
+	- adventure-platform-fabric 5.6.0 via tabtps-fabric
+	- appleskin 2.4.2+mc1.19.3
+	- at_favre_lib_bcrypt 0.9.0 via easyauth
+	- at_favre_lib_bytes 1.5.0 via easyauth
+	- c2me 0.2.0+alpha.10.0
+	- c2me-base 0.2.0+alpha.10.0 via c2me
+	- c2me-fixes-chunkio-threading-issues 0.2.0+alpha.10.0 via c2me
+	- c2me-fixes-general-threading-issues 0.2.0+alpha.10.0 via c2me
+	- c2me-fixes-worldgen-threading-issues 0.2.0+alpha.10.0 via c2me
+	- c2me-fixes-worldgen-vanilla-bugs 0.2.0+alpha.10.0 via c2me
+	- c2me-notickvd 0.2.0+alpha.10.0 via c2me
+	- c2me-opts-allocs 0.2.0+alpha.10.0 via c2me
+	- c2me-opts-chunk-access 0.2.0+alpha.10.0 via c2me
+	- c2me-opts-chunkio 0.2.0+alpha.10.0 via c2me
+	- c2me-opts-math 0.2.0+alpha.10.0 via c2me
+	- c2me-opts-scheduling 0.2.0+alpha.10.0 via c2me
+	- c2me-opts-worldgen-general 0.2.0+alpha.10.0 via c2me
+	- c2me-opts-worldgen-vanilla 0.2.0+alpha.10.0 via c2me
+	- c2me-rewrites-chunkio 0.2.0+alpha.10.0 via c2me
+	- c2me-server-utils 0.2.0+alpha.10.0 via c2me
+	- c2me-threading-chunkio 0.2.0+alpha.10.0 via c2me
+	- c2me-threading-lighting 0.2.0+alpha.10.0 via c2me
+	- c2me-threading-scheduling 0.2.0+alpha.10.0 via c2me
+	- c2me-threading-worldgen 0.2.0+alpha.10.0 via c2me
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 9.0.94 via appleskin
+	- cloud 1.8.0-SNAPSHOT via tabtps-fabric
+	- cloud_commandframework_cloud-brigadier_ 1.8.0-SNAPSHOT via cloud
+	- cloud_commandframework_cloud-core_ 1.8.0-SNAPSHOT via cloud
+	- cloud_commandframework_cloud-minecraft-extras 1.8.0-SNAPSHOT via tabtps-fabric
+	- cloud_commandframework_cloud-services_ 1.8.0-SNAPSHOT via cloud
+	- collective 6.43
+	- com_electronwill_night-config_core 3.6.6 via couplings
+	- com_electronwill_night-config_toml 3.6.6 via couplings
+	- com_github_llamalad7_mixinextras 0.1.1 via servercore
+	- com_ibm_async_asyncutil 0.1.0 via c2me
+	- com_moandjiezana_toml_toml4j 0.7.2 via skinpls
+	- com_typesafe_config 1.4.2 via tabtps-fabric
+	- com_velocitypowered_velocity-native 3.1.2-SNAPSHOT via krypton
+	- couplings 1.9.2+1.19.3
+	- de_mkammerer_argon2-jvm 2.11 via easyauth
+	- de_mkammerer_argon2-jvm-nolibs 2.11 via easyauth
+	- delayedrespawn 1.4.0
+	- easyauth 3.0.0-11
+	- emotecraft 2.2.7-SNAPSHOT-build.46
+	- fabric-api 0.73.0+1.19.3
+	- fabric-api-base 0.4.20+afca2f3e85 via couplings
+	- fabric-api-lookup-api-v1 1.6.19+49abcf7e85 via fabric-api
+	- fabric-biome-api-v1 12.1.0+b5d379b085 via fabric-api
+	- fabric-block-api-v1 1.0.4+e022e5d185 via fabric-api
+	- fabric-command-api-v1 1.2.21+f71b366f85 via fabric-api
+	- fabric-command-api-v2 2.2.0+3fc4752e85 via fabric-api
+	- fabric-commands-v0 0.2.38+df3654b385 via fabric-api
+	- fabric-containers-v0 0.1.46+df3654b385 via fabric-api
+	- fabric-content-registries-v0 3.5.0+1d37d50285 via fabric-api
+	- fabric-convention-tags-v1 1.2.1+8e4e694f85 via fabric-api
+	- fabric-crash-report-info-v1 0.2.13+aeb40ebe85 via fabric-api
+	- fabric-data-generation-api-v1 11.2.0+06937c4b85 via fabric-api
+	- fabric-dimensions-v1 2.1.40+48349a3f85 via fabric-api
+	- fabric-entity-events-v1 1.5.6+b83334a085 via fabric-api
+	- fabric-events-interaction-v0 0.4.39+3baeb27a85 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.43+df3654b385 via fabric-api
+	- fabric-game-rule-api-v1 1.0.29+99f9db8085 via fabric-api
+	- fabric-item-api-v1 2.1.9+c3530bb185 via fabric-api
+	- fabric-item-group-api-v1 2.1.11+1134c5b885 via fabric-api
+	- fabric-language-kotlin 1.9.0+kotlin.1.8.0
+	- fabric-lifecycle-events-v1 2.2.9+23a79c8a85 via fabric-api
+	- fabric-loot-api-v2 1.1.19+75e9821185 via fabric-api
+	- fabric-loot-tables-v1 1.1.23+9e7660c685 via fabric-api
+	- fabric-message-api-v1 5.0.13+6ede1da985 via fabric-api
+	- fabric-mining-level-api-v1 2.1.30+49abcf7e85 via fabric-api
+	- fabric-networking-api-v1 1.2.16+4017a8cb85 via couplings
+	- fabric-networking-v0 0.3.33+df3654b385 via fabric-api
+	- fabric-object-builder-api-v1 5.4.0+eb2a3ba985 via fabric-api
+	- fabric-particles-v1 1.0.19+f1e4495b85 via fabric-api
+	- fabric-permissions-api-v0 0.2-SNAPSHOT via easyauth
+	- fabric-recipe-api-v1 1.0.0+5176f73d85 via fabric-api
+	- fabric-registry-sync-v0 2.0.4+1134c5b885 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.24+afca2f3e85 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.17+f1e4495b85 via fabric-api
+	- fabric-resource-conditions-api-v1 2.2.2+1134c5b885 via fabric-api
+	- fabric-resource-loader-v0 0.10.4+a91e48b785 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.12+99f9db8085 via fabric-api
+	- fabric-transfer-api-v1 2.1.14+ccd377ba85 via fabric-api
+	- fabric-transitive-access-wideners-v1 2.3.0+5b9a588b85 via fabric-api
+	- fabricloader 0.14.13
+	- fallingtree 3.11.2
+	- fastload 2.6.11
+	- ferritecore 5.1.0
+	- immersive_paintings 0.4.4+1.19.3
+	- io_leangen_geantyref_geantyref 1.3.13 via cloud
+	- java 17
+	- krypton 0.2.1
+	- lazydfu 0.1.3
+	- ledger 1.2.6
+	- lithium 0.10.4
+	- loyal_items_mr 1.0.0
+	- memoryleakfix 1.19.3-0.7.0
+	- mine_treasure_mr 1.1.5
+	- minecraft 1.19.3
+	- mob_captains_mr 1-v2.0.1
+	- morediscs 1.19.3-27
+	- mousewheelie 1.10.7+mc1.19.3
+	- mysql_mysql-connector-java 8.0.29 via easyauth
+	- net_java_dev_jna_jna 5.12.1 via easyauth
+	- net_kyori_adventure-api 4.12.0 via adventure-platform-fabric
+	- net_kyori_adventure-key 4.12.0 via adventure-platform-fabric
+	- net_kyori_adventure-platform-api 4.1.2 via adventure-platform-fabric
+	- net_kyori_adventure-serializer-configurate4 4.12.0 via tabtps-fabric
+	- net_kyori_adventure-text-feature-pagination 4.0.0-SNAPSHOT via tabtps-fabric
+	- net_kyori_adventure-text-logger-slf4j 4.12.0 via adventure-platform-fabric
+	- net_kyori_adventure-text-minimessage 4.12.0 via adventure-platform-fabric
+	- net_kyori_adventure-text-serializer-gson 4.12.0 via adventure-platform-fabric
+	- net_kyori_adventure-text-serializer-legacy 4.12.0 via tabtps-fabric
+	- net_kyori_adventure-text-serializer-plain 4.12.0 via adventure-platform-fabric
+	- net_kyori_examination-api 1.3.0 via adventure-platform-fabric
+	- net_kyori_examination-string 1.3.0 via adventure-platform-fabric
+	- net_objecthunter_exp4j 0.4.8 via c2me
+	- org_iq80_leveldb_leveldb 0.12 via easyauth
+	- org_iq80_leveldb_leveldb-api 0.12 via easyauth
+	- org_jetbrains_kotlin_kotlin-reflect 1.8.0 via fabric-language-kotlin
+	- org_jetbrains_kotlin_kotlin-stdlib 1.8.0 via fabric-language-kotlin
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk7 1.8.0 via fabric-language-kotlin
+	- org_jetbrains_kotlin_kotlin-stdlib-jdk8 1.8.0 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_atomicfu-jvm 0.18.5 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.6.4 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.6.4 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.4.0 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.4.1 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.4.1 via fabric-language-kotlin
+	- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.4.1 via fabric-language-kotlin
+	- org_mongodb_bson 4.7.0 via easyauth
+	- org_mongodb_mongodb-driver-core 4.7.0 via easyauth
+	- org_mongodb_mongodb-driver-sync 4.7.0 via easyauth
+	- org_spongepowered_configurate-core 4.1.2 via tabtps-fabric
+	- org_spongepowered_configurate-hocon 4.1.2 via tabtps-fabric
+	- org_threadly_threadly 7.0 via c2me
+	- packet_tweaker 0.3.0+1.18.2 via server_translations_api
+	- placeholder-api 2.0.0-pre.2+1.19.3 via easyauth
+	- plasmo_voice 1.2.19
+	- player-animator 0.4.1+1.19.3 via emotecraft
+	- server_translations_api 1.4.19+1.19.3 via easyauth
+	- servercore 1.3.4-1.19.3
+	- serversleep_mr 1-datapack
+	- skinpls 1.1
+	- smoothboot 1.19-1.7.1
+	- starlight 1.1.1+fabric.ae22326
+	- tabtps-fabric 1.3.16
+	- tweed4_annotated 1.3.1+mc1.19.3 via mousewheelie
+	- tweed4_base 1.7.1+mc1.19.3 via mousewheelie
+	- tweed4_data 1.2.1+mc1.19.3 via mousewheelie
+	- tweed4_data_hjson 1.1.1+mc1.19.3 via mousewheelie
+	- vmp 0.2.0+beta.7.43
+[10:52:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/dgabo/OneDrive/Рабочий%20стол/customserver/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[10:52:21] [main/INFO]: Compatibility level set to JAVA_17
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[10:52:21] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunkio.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.threading.chunkio.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.threading.scheduling.mixin
+[10:52:21] [main/INFO]: Initializing com.ishland.c2me.threading.worldgen.mixin
+[10:52:22] [main/WARN]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[10:52:22] [main/INFO]: Loaded configuration file for Lithium: 106 options available, 3 override(s) found
+[10:52:22] [main/WARN]: Reference map 'morediscs-refmap.json' for morediscs.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:52:22] [main/WARN]: Reference map 'plasmovoice-fabric-refmap.json' for plasmovoice.mixins.json could not be read. If this is a development environment you can ignore this message
+[10:52:22] [main/INFO]: [ServerCore] Loading...
+[10:52:22] [main/INFO]: Successfully started async appender with [ServerGuiConsole, SysOut, File]
+[10:52:22] [main/WARN]: Mixin malte0811.ferritecore.mixin.threaddetec.PalettedContainerMixin is disabled automatically as lithium is installed
+[10:52:22] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[10:52:22] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkManagerMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [servercore]) disables it and children
+[10:52:22] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [c2me, krypton, vmp]) disables it and children
+[10:52:23] [main/INFO]: Smooth Boot config initialized
+[10:52:27] [main/INFO]: Building unoptimized datafixer
+[10:52:29] [main/INFO]: Loading Collective version 6.43.
+[10:52:29] [main/INFO]: EasyAuth mod by samo_lego, NikitaCartes.
+[10:52:30] [main/INFO]: DEBUG: FALSE
+[10:52:30] [main/INFO]: PREGEN_CHUNK_RADIUS: 1
+[10:52:30] [main/INFO]: PREGEN_CHUNK_AREA: 9
+[10:52:30] [main/ERROR]: No data fixer registered for immersive_paintings:painting
+[10:52:30] [main/ERROR]: No data fixer registered for immersive_paintings:glow_painting
+[10:52:30] [main/INFO]: Compression will use Java, encryption will use Java
+[10:52:31] [main/INFO]: Done initializing TabTPS.
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2635 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7519 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7494 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7618 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_7496 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2755 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2762 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2610 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2612 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2698 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2809 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2644 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2730 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_2660 not found for raknet multi-channel
+[10:52:31] [main/INFO]: [STDOUT]: Raknetify: Warning: net.minecraft.class_5747 not found for raknet multi-channel
+[10:52:31] [main/INFO]: Initialized Delayed Respawn version 1.4.0
+[10:52:31] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack ?
+[10:52:31] [main/INFO]: Initializing Ledger 1.2.6
+[10:52:33] [main/INFO]: Reloaded configs for mousewheelie (server/highest)
+[10:52:33] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10:52:36] [main/INFO]: Loaded 7 recipes
+[10:52:37] [main/INFO]: Loaded 1571 advancements
+[10:52:37] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 5901 translation keys
+[10:52:37] [main/INFO]: Reloaded configs for mousewheelie (server/smallest)
+[10:52:37] [main/INFO]: Applied 0 biome modifications to 0 of 63 new biomes in 2.630 ms
+[10:52:38] [Server thread/INFO]: Preparing create tables statements took 17ms
+[10:52:38] [Server thread/INFO]: Executing create tables statements took 15ms
+[10:52:38] [Server thread/INFO]: Extracting table columns took 5ms
+[10:52:38] [Server thread/INFO]: Preparing alter table statements took 6ms
+[10:52:38] [Server thread/INFO]: Executing alter table statements took 1ms
+[10:52:38] [Server thread/INFO]: Index on table 'players' differs only in name: in db players_player_id -> in mapping players_player_id_unique
+[10:52:38] [Server thread/INFO]: Index on table 'ActionIdentifiers' differs only in name: in db ActionIdentifiers_action_identifier -> in mapping ActionIdentifiers_action_identifier_unique
+[10:52:38] [Server thread/INFO]: Index on table 'ObjectIdentifiers' differs only in name: in db ObjectIdentifiers_identifier -> in mapping ObjectIdentifiers_identifier_unique
+[10:52:38] [Server thread/INFO]: Index on table 'sources' differs only in name: in db sources_name -> in mapping sources_name_unique
+[10:52:38] [Server thread/INFO]: Index on table 'worlds' differs only in name: in db worlds_identifier -> in mapping worlds_identifier_unique
+[10:52:38] [Server thread/INFO]: Checking mapping consistence took 138ms
+[10:52:38] [Server thread/INFO]: Tables created
+[10:52:38] [DefaultDispatcher-worker-4/INFO]: Inserting 1507 registry keys into the database...
+[10:52:38] [Server thread/ERROR]: Registry 'tweed4:tailors' was empty after loading
+[10:52:38] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[10:52:38] [Server thread/INFO]: Loading properties
+[10:52:38] [Server thread/INFO]: Default game type: SURVIVAL
+[10:52:38] [Server thread/INFO]: Generating keypair
+[10:52:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:52:38] [Server thread/INFO]: Using default channel type
+[10:52:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:52:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:52:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:52:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:52:38] [Server thread/INFO]: Preparing level "world"
+[10:52:39] [Server thread/INFO]: Changing watch distance to 11
+[10:52:39] [Server thread/INFO]: Changing watch distance to 11
+[10:52:40] [Server thread/INFO]: Changing watch distance to 11
+[10:52:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:52:40] [DefaultDispatcher-worker-6/INFO]: Registry insert complete
+[10:52:40] [C2ME worker #1/INFO]: Preparing spawn area: 0%
+[10:52:40] [C2ME worker #1/INFO]: Preparing spawn area: 0%
+[10:52:41] [C2ME worker #1/INFO]: Preparing spawn area: 0%
+[10:52:41] [Server thread/INFO]: Time elapsed: 1291 ms
+[10:52:41] [Server thread/INFO]: [MemoryLeakFix] Attempting to ForceLoad All Mixins and clear cache
+[10:52:41] [Server thread/INFO]: [MemoryLeakFix] Done ForceLoad and clearing SpongePowered cache
+[10:52:41] [Server thread/INFO]: Done (3.030s)! For help, type "help"
+[10:52:41] [Thread-29/INFO]: Voice UDP server started on /0.0.0.0:25565
+[10:52:41] [Server thread/INFO]: Reloaded configs for mousewheelie (server/world)
+[10:53:07] [Server thread/INFO]: bySawec[/31.28.234.204:5376] logged in with entity id 37 at (12.44093370635711, 70.0, 9.412440132542754)
+[10:53:07] [Server thread/INFO]: bySawec joined the game
+[10:53:07] [Server thread/INFO]: Async chunk loading for player bySawec completed
+[10:53:44] [Server thread/INFO]: bySawec lost connection: Disconnected
+[10:53:44] [Server thread/INFO]: bySawec left the game
+[10:53:45] [Server thread/INFO]: bySawec[/31.28.234.204:9978] logged in with entity id 285 at (12.797131973789677, 71.0, 5.625331377450016)
+[10:53:45] [Server thread/INFO]: bySawec joined the game
+[10:53:45] [Server thread/INFO]: Async chunk loading for player bySawec completed
+[10:57:12] [Server thread/INFO]: bySawec tried to swim in lava
+[10:57:12] [Server thread/INFO]: bySawec died and has to take 0h 5m 0s timeout
+[10:57:12] [Server thread/INFO]: bySawec lost connection: Disconnected
+[10:57:12] [Server thread/INFO]: bySawec left the game
+[10:57:12] [Server thread/WARN]: handleDisconnection() called twice
+[10:57:14] [Server thread/INFO]: bySawec tried to join the game (4m 58s timeout left)
+[10:57:14] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@4af083dd[id=bc848782-cb81-36f6-a70d-4a2287722df9,name=bySawec,properties={},legacy=false] (/31.28.234.204:5405): You still have to wait 4m 58s before connecting.
+[10:57:14] [Server thread/INFO]: com.mojang.authlib.GameProfile@4af083dd[id=bc848782-cb81-36f6-a70d-4a2287722df9,name=bySawec,properties={},legacy=false] (/31.28.234.204:5405) lost connection: You still have to wait 4m 58s before connecting.
+[10:57:14] [Server thread/WARN]: handleDisconnection() called twice
+[10:57:17] [Server thread/INFO]: bySawec tried to join the game (4m 55s timeout left)
+[10:57:17] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3014a420[id=bc848782-cb81-36f6-a70d-4a2287722df9,name=bySawec,properties={},legacy=false] (/31.28.234.204:5406): You still have to wait 4m 55s before connecting.
+[10:57:17] [Server thread/INFO]: com.mojang.authlib.GameProfile@3014a420[id=bc848782-cb81-36f6-a70d-4a2287722df9,name=bySawec,properties={},legacy=false] (/31.28.234.204:5406) lost connection: You still have to wait 4m 55s before connecting.
+[10:57:17] [Server thread/WARN]: handleDisconnection() called twice
+[10:57:18] [Server thread/INFO]: bySawec tried to join the game (4m 54s timeout left)
+[10:57:18] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@b81bbbb[id=bc848782-cb81-36f6-a70d-4a2287722df9,name=bySawec,properties={},legacy=false] (/31.28.234.204:5407): You still have to wait 4m 54s before connecting.
+[10:57:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@b81bbbb[id=bc848782-cb81-36f6-a70d-4a2287722df9,name=bySawec,properties={},legacy=false] (/31.28.234.204:5407) lost connection: You still have to wait 4m 54s before connecting.
+[10:57:18] [Server thread/WARN]: handleDisconnection() called twice
+[10:57:25] [Server thread/INFO]: com.mojang.authlib.GameProfile@1596c078[id=<null>,name=Tom_Com,properties={},legacy=false] (/130.255.140.56:52028) lost connection: Disconnected
+[10:57:27] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[10:57:27] [Server thread/INFO]: ...rdon-death<--[HERE]
+[10:57:29] [Server thread/INFO]: Tom_Com[/130.255.140.56:52039] logged in with entity id 840 at (76.02613536603067, 82.0, 2.781271435302306)
+[10:57:29] [Server thread/INFO]: Tom_Com joined the game
+[10:57:29] [Server thread/INFO]: Async chunk loading for player Tom_Com completed
+[10:57:30] [Server thread/INFO]: Pardoning the last death of bySawec
+[10:57:30] [Server thread/INFO]: Tom_Com lost connection: Disconnected
+[10:57:30] [Server thread/INFO]: Tom_Com left the game
+[10:57:35] [Server thread/INFO]: bySawec[/31.28.234.204:5417] logged in with entity id 1028 at (17.757385293797533, 63.0, -18.91211270027946)
+[10:57:35] [Server thread/INFO]: bySawec joined the game
+[10:57:35] [Server thread/INFO]: Async chunk loading for player bySawec completed
+[10:57:44] [Server thread/INFO]: Tom_Com[/130.255.140.56:52048] logged in with entity id 1160 at (76.02613536603067, 82.0, 2.781271435302306)
+[10:57:44] [Server thread/INFO]: Tom_Com joined the game
+[10:57:44] [Server thread/INFO]: Async chunk loading for player Tom_Com completed
+[10:57:44] [Server thread/INFO]: Tom_Com lost connection: Disconnected
+[10:57:44] [Server thread/INFO]: Tom_Com left the game
+[10:58:06] [Server thread/INFO]: Async chunk loading for player bySawec completed
+[11:01:25] [Server thread/INFO]: Tom_Com[/130.255.140.56:49332] logged in with entity id 1730 at (76.02613536603067, 82.0, 2.781271435302306)
+[11:01:25] [Server thread/INFO]: Tom_Com joined the game
+[11:01:25] [Server thread/INFO]: Async chunk loading for player Tom_Com completed
+[11:01:27] [Server thread/INFO]: Tom_Com lost connection: Disconnected
+[11:01:27] [Server thread/INFO]: Tom_Com left the game
+[11:03:35] [Server thread/INFO]: Tom_Com[/130.255.140.56:49441] logged in with entity id 1941 at (76.02613536603067, 82.0, 2.781271435302306)
+[11:03:35] [Server thread/INFO]: Tom_Com joined the game
+[11:03:35] [Server thread/INFO]: Async chunk loading for player Tom_Com completed
+[11:03:36] [Server thread/INFO]: Tom_Com lost connection: Disconnected
+[11:03:36] [Server thread/INFO]: Tom_Com left the game
+[11:06:19] [Server thread/INFO]: Tom_Com[/130.255.140.56:60771] logged in with entity id 2182 at (76.02613536603067, 82.0, 2.781271435302306)
+[11:06:19] [Server thread/INFO]: Tom_Com joined the game
+[11:06:19] [Server thread/INFO]: Async chunk loading for player Tom_Com completed
+[11:08:59] [Server thread/INFO]: Tom_Com lost connection: Disconnected
+[11:08:59] [Server thread/INFO]: Tom_Com left the game
+[11:09:46] [Server thread/INFO]: bySawec lost connection: Disconnected
+[11:09:46] [Server thread/INFO]: bySawec left the game
+[11:19:32] [Server thread/INFO]: Tom_Com[/130.255.140.56:61216] logged in with entity id 2668 at (75.72199031093184, 82.0, 2.3280824918000924)
+[11:19:32] [Server thread/INFO]: Tom_Com joined the game
+[11:19:32] [Server thread/INFO]: Async chunk loading for player Tom_Com completed
+[11:23:32] [Server thread/INFO]: No player was found
+[11:23:35] [Server thread/INFO]: No player was found
+[11:23:37] [Server thread/INFO]: Set Tom_Com's game mode to Creative Mode
+[11:43:59] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingshazycastledavidfrasheski32pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:748)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:43:59] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingsairshipsalexruizart32pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:748)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:43:59] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingswindmilltowndarekzabrocki32pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:115)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:747)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:43:59] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingsautumnnostalgiatree64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:748)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingssmallmemorymikaelgustafsson64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:748)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingsnevermorejosefbarton64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:748)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingshazycastledavidfrasheski64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:748)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingsthelostlegendxutianhua64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:748)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingswindmilltowndarekzabrocki64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:748)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingscthulhuandreewallin64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:115)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:747)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingsthetorchstarkiteckt64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:115)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:747)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingslakesareltheron64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:115)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:747)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingsairshipsalexruizart64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:115)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:747)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingslifeintheskyvladimirkostuchek64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:115)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:747)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingsdarkphoenixstarkiteckt64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:115)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:747)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingsgothiclandscapesorokaalexej64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:115)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:747)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingsconceptbinubalan64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:115)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:747)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:45:35] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\immersivepaintingspaintingsfrostvalleyjorgejacinto64pxpng_thumbnail.png (Системе не удается найти указанный путь)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_5383(class_1255.java:115)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:747)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:45:35] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[11:57:00] [Server thread/INFO]: [STDERR]: java.io.FileNotFoundException: .\immersive_paintings_cache\cf021b59-25cf-4cea-a7b6-62d603283214_half.png (Системе не удается найти указанный путь)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open0(Native Method)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.Cache.set(Cache.java:51)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.resources.ServerPaintingManager.getImageData(ServerPaintingManager.java:144)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.network.c2s.ImageRequest.receive(ImageRequest.java:31)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at immersive_paintings.fabric.cobalt.network.NetworkHandlerImpl.lambda$registerMessage$1(NetworkHandlerImpl.java:36)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_3738.run(class_3738.java:18)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.redirect$zel000$redirectExecuteTask(class_1255.java:521)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_16075(class_1255.java:130)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:9300)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:763)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at net.minecraft.class_1255.method_18857(class_1255.java:139)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:748)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:680)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:264)
+[11:57:00] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[12:07:43] [Server thread/INFO]: Tom_Com has made the advancement [Ice Bucket Challenge]
+[12:07:59] [Server thread/INFO]: Portal not located for entity class_3222['Tom_Com'/2668, l='ServerLevel[world]', x=41.96, y=74.18, z=-14.15] at null
+[12:08:11] [Server thread/INFO]: Tom_Com has made the advancement [We Need to Go Deeper]
+[12:08:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11487ms or 229 ticks behind
+[12:08:21] [Server thread/INFO]: Tom_Com has made the advancement [A Terrible Fortress]
+[12:09:23] [Server thread/INFO]: Tom_Com has made the advancement [Acquire Hardware]
+[12:09:44] [Server thread/INFO]: Tom_Com has made the advancement [Diamonds!]
+[12:11:11] [Server thread/INFO]: Tom_Com has made the advancement [Those Were the Days]
+[12:22:17] [Server thread/INFO]: Tom_Com has made the advancement [War Pigs]
+[12:26:32] [Server thread/INFO]: Tom_Com lost connection: Disconnected
+[12:26:32] [Server thread/INFO]: Tom_Com left the game
+[12:26:44] [Server thread/INFO]: Stopping the server
+[12:26:44] [Thread-29/INFO]: Voice UDP server stopped
+[12:26:44] [Server thread/INFO]: Stopping server
+[12:26:44] [Server thread/INFO]: Saving players
+[12:26:44] [Server thread/INFO]: Saving worlds
+[12:26:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:26:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12:26:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12:26:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:26:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:26:45] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:26:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12:26:45] [Server thread/INFO]: Shutting down EasyAuth.
+[12:26:45] [Server thread/INFO]: Database connection closed successfully

@@ -1,0 +1,1 @@
+java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githack.com/intergrav/Adrenaserver/main/versions/fabric/1.19.3/pack.toml

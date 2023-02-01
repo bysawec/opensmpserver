@@ -1,0 +1,33 @@
+{
+  "vanilla_refresh:biome/plains": {
+    "criteria": {
+      "requirement": "2023-02-01 10:29:53 +0300"
+    },
+    "done": true
+  },
+  "mt:entity_hit_system/entity_hit_player": {
+    "criteria": {
+      "requirement": "2023-02-01 10:57:09 +0300"
+    },
+    "done": true
+  },
+  "mt:entity_hit_system/player_hit_entity": {
+    "criteria": {
+      "requirement": "2023-02-01 11:02:54 +0300"
+    },
+    "done": true
+  },
+  "vanilla_refresh:player/hurt": {
+    "criteria": {
+      "requirement": "2023-02-01 11:02:50 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2023-02-01 10:29:53 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 3218
+}
